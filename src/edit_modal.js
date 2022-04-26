@@ -37,7 +37,7 @@ const EditModal = (props) => {
     try {
       if (current) {
         await Axios.post(
-          `https://hiringapp-dev-functions.appblox.io/updateCandidate`,
+          `https://testhrapp1-dev-functions.appblox.io/testapp_updateCandidate`,
           data,
           {
             headers: {
@@ -47,7 +47,7 @@ const EditModal = (props) => {
         );
       } else {
         await Axios.post(
-          `https://hiringapp-dev-functions.appblox.io/addCandidate`,
+          `https://testhrapp1-dev-functions.appblox.io/testapp_addCandidate`,
           data,
           {
             headers: {
